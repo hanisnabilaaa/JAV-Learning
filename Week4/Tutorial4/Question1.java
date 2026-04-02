@@ -1,12 +1,12 @@
-///b. Determine whether an input integer is an odd number or even number.
+///c. Determine whether a character is a capital letter.
 
 public class Question1 {
     public static void main(String[] args) {
-        int n = 2;
-        if (n % 2 == 0){
-            System.out.println("Even");
+        char c = 'T';
+        if (c >= 'A' && c <= 'Z'){
+            System.out.println("Capital letter");
         }else {
-            System.out.println("Odd");
+            System.out.println("Not capital letter");
         }
     }
 }
