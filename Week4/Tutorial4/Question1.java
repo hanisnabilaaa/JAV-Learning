@@ -1,14 +1,12 @@
-///a. Determine whether 3x8=27.
+///b. Determine whether an input integer is an odd number or even number.
 
 public class Question1 {
     public static void main(String[] args) {
-        ///int a = 3;
-        ///int b = 8;
-        ///int c = a*b;
-        if (3*8 == 27){
-            System.out.println("True");
+        int n = 2;
+        if (n % 2 == 0){
+            System.out.println("Even");
         }else {
-            System.out.println("False");
+            System.out.println("Odd");
         }
     }
 }
